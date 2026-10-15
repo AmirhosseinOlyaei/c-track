@@ -4,7 +4,7 @@ import { createWorkersResponseStoreServiceBindingConfig } from "@vinext/cloudfla
 const responseStore = await createWorkersResponseStoreServiceBindingConfig({
   worker: {
     name: "c-track-response-store",
-    compatibilityDate: "2026-10-15",
+    compatibilityDate: "2026-10-07",
     compatibilityFlags: ["nodejs_compat"],
   },
   bucket: "c-track-response-store-cache-bodies",
@@ -17,7 +17,7 @@ export default defineConfig({
     ...responseStore.applicationWorker,
     name: "c-track",
     entrypoint: "vinext/server/fetch-handler",
-    compatibilityDate: "2026-10-15",
+    compatibilityDate: "2026-10-07",
     compatibilityFlags: ["nodejs_compat"],
     assets: { notFoundHandling: "none" },
     env: {
