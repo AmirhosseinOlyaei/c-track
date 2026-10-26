@@ -12,8 +12,6 @@ This repository is governed by the DevArts Lab foundation: `../devartslab-founda
   hosted-tier path). Also deploys a Response Store Worker - see README deploy
   note.
 - Skills resolve by name from `~/.agents/skills/`; do not vendor copies.
-- Docs platform status: `refining`. Do not publish to the documentation
-  platform; LAB_INDEX is authoritative for readiness.
 
 ## Commands and safety
 
