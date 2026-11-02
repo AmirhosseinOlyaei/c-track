@@ -4,8 +4,8 @@ Cloudflare Workers port of career-tracker via vinext (foundation decision D5).
 
 ## Foundation
 
-This repository is governed by the DevArts Lab foundation: `../devartslab-foundation`
-(remote: `DevArtsLab/devartslab-foundation`). Adopted revision: 3a (2026-10-26).
+This repository is governed by the DevArts Lab foundation: `../foundation`
+(remote: `DevArtsLab/foundation`). Adopted revision: 3a (2026-10-26).
 
 - Applicable: D1-D15 broadly; this is the foundation-aligned track for the
   career-tracker product (career-tracker ADR-0016 keeps it as the deferred
